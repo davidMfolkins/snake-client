@@ -18,14 +18,39 @@ const handleUserInput = function() {
     if (key === '\u0003') {
       console.log("BYE, love snek");
       process.exit();
-    } else if (key === 'w') {
+    }
+    if (key === 'w') {
       connection.write("Move: up");
-    } else if (key === 'a') {
+    }
+    if (key === 'a') {
       connection.write("Move: left");
-    } else if (key === 's') {
+    }
+    if (key === 's') {
       connection.write("Move: down");
-    } else if (key === 'd') {
+    }
+    if (key === 'd') {
       connection.write("Move: right");
+    }
+    if (key === '1') {
+      connection.write("Say: YAHOO");
+    }
+    if (key === '1') {
+      connection.write("Say: YAHOO");
+    }
+    if (key === '1') {
+      connection.write("Say: YAHOO");
+    }
+    if (key === '2') {
+      connection.write("Say: I'm a snake");
+    }
+    if (key === '3') {
+      connection.write("Say: GET OVER HERE");
+    }
+    if (key === '4') {
+      connection.write("Say: IMMA GET THAT FOOD");
+    }
+    if (key === '5') {
+      connection.write("Say: ZOOOOOOOOOM");
     }
   });
 };
